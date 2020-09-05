@@ -23,7 +23,7 @@ window.onload = function() {
 var number = 1
 
 function PlusOne(){
-//    console.log("PlusOne Function")
+console.log("PlusOne Function")
    var count = document.getElementById('change_integer');
    number++;
    count.innerHTML = number;
@@ -32,7 +32,7 @@ function PlusOne(){
 var number = 1
 
 function DeductOne(){
-    // console.log("DeductOne Function")
+console.log("DeductOne Function")
     var count = document.getElementById('change_integer');
     number--;
     count.innerHTML = number;
