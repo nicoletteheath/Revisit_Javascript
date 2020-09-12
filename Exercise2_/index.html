@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Revisiting Java Script</title>
+        <meta name="description" content="JavaScript Exercise">
+        <meta name="author" content="She Codes">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Exercise 2</h1>
+        </header>
+
+                <p>Click on the buttons below to add to your cart</p>
+     
+            <section class="container content-section">
+                <h2 class="section-header">FRUIT</h2>
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Apple</span>
+                        <img class="shop-item-image" src="https://img.huffingtonpost.com/asset/5b7ad435200000420034abec.jpeg?cache=epfSt9odEb&ops=scalefit_720_noupscale">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$1.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Orange</span>
+                        <img class="shop-item-image" src="https://st.depositphotos.com/1000141/1963/i/450/depositphotos_19638723-stock-photo-fresh-orange-fruit-with-leaf.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$1.79</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Banana</span>
+                        <img class="shop-item-image" src="https://media.istockphoto.com/photos/banana-bunch-picture-id173242750?k=6&m=173242750&s=612x612&w=0&h=QJB3WhqIWcF1umqELWFUVu32OJWCuePabFClaMfRWbo=">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$1.79</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container content-section">
+                <h2 class="section-header">CART</h2>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">$0</span>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
